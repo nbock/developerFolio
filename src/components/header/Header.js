@@ -8,9 +8,7 @@ function Header() {
     <Headroom>
       <header className="header">
         <a href="" className="logo">
-          <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
@@ -27,7 +25,7 @@ function Header() {
           }
           {workExperiences.viewExperiences &&
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Work Experience</a>
             </li>
           }
           <li>
@@ -38,12 +36,6 @@ function Header() {
           </li>
           <li>
             <a href="#achievements">Achievements</a>
-          </li>
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
